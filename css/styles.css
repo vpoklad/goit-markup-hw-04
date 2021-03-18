@@ -25,6 +25,11 @@ p {
   margin: 0;
   padding: 0;
 }
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .visually-hidden {
   position: absolute !important;
@@ -232,7 +237,7 @@ p {
   margin-bottom: 94px;
 }
 .features-item {
-  flex-basis: calc((100% -3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
@@ -331,7 +336,10 @@ margin-bottom: 10px;
 
 .clients.list{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+.clients .item {
+  flex-basis: calc((100% - 6 * 30px) / 6);
 }
 .clients .item:not(:last-child){
   margin-right: 30px;
