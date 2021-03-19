@@ -164,6 +164,7 @@ img{
   color: var(--accent-color);
 }
 .contacts-header .icon {
+  margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
   fill: currentColor;
